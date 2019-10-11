@@ -1,1 +1,13 @@
+@import '../../global.scss';
 
+.hero_header {
+    display: flex;
+    height: 300px;
+    @include background(url(../../assets/images/hero-header.jpg) no-repeat 0 center);
+    @include flex_center();
+}
+.hero_header h1 {
+    color:#fff;
+    @include background(rgba(0,0,0,0.5));
+    padding: 15px;
+}
